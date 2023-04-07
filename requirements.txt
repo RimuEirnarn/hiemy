@@ -1,0 +1,8 @@
+sqlite-database @ https://github.com/RimuEirnarn/sqlite_database/archive/refs/tags/v0.1.1.tar.gz
+future_router @ https://github.com/RimuEirnarn/future_router/archive/refs/heads/main.zip
+flask
+flask-login
+flask-wtf
+flask-limiter
+flask-limiter[memcached]
+python-dotenv

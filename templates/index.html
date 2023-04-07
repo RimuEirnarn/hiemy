@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+    <head>
+        {%- include '_head.html' %}
+    </head>
+
+    <body>
+        {%- include '_navbar.html' %}
+        <main class='container'>
+            <br>
+            <div id='messages' class='my-5'>
+            </div>
+            <div class="card centered">
+                <div class="card-body">
+                    <h4 class="card-title text-md-center">URL Shortener</h4>
+                    <br>
+                    <p>Paste any URL and press enter or click Shorten button</p>
+                    <!-- <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="url">
+                        <label for="url">URL</label>
+                    </div> -->
+                    <div class="input-group has-validation mb-3">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="url" placeholder="https://google.com" required>
+                            <label for="url">URL</label>
+                        </div>
+                        <div class="invalid-feedback">
+                            Please paste/type the URL.
+                        </div>
+                    </div>
+                    <input name="Submit" id="push" class="btn btn-outline-primary" type="button" value="Shorten">
+                    <div id='result'>
+                        <hr>
+                        <a href="#" id='result-target'></a>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </body>
+
+</html>
